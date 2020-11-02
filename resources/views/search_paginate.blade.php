@@ -1,0 +1,1 @@
+@if ($paginate == 1) {{ $model->links() }} @endif <div class="alert alert-secondary ml-3 py-1" role="alert" style="font-size: 0.9em; line-height: 30px">Всего записей: {{ $model->total() }}</div>

@@ -1,0 +1,91 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin-bottom: 50px !important;
+}
+
+.edit_item {
+    font-size: 1.1em;
+    color: #187b00;
+    margin-right: 10px;
+}
+
+.delete_item {
+    font-size: 1.1em;
+    color: #7b0007;
+}
+
+.photo_item {
+    font-size: 1.1em;
+    color: #00609c;
+}
+
+.delete_item:hover, .edit_item:hover, .photo_item:hover{
+    cursor: pointer;
+}
+
+.toaster{
+    box-shadow:5px 5px 10px 0px rgba(0,0,0,0.62);
+    z-index: -11;
+    width: 300px;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    position: fixed;
+    right: 1%;
+    top: 2%;
+    opacity: 0;
+}
+
+.logo {
+    width: 180px;
+    height: 60px;
+}
+
+.hello span{
+    font-size: 1em;
+    opacity: 0.8;
+    color: black;
+}
+
+.hello a {
+    font-size: 1em;
+    color: white !important;
+    width: 50px;
+}
+
+.add_char {
+    font-size: 2em !important;
+    color: green !important;
+    cursor: pointer;
+}
+
+.del_char {
+    font-size: 2em !important;
+    color: #9c0004 !important;
+    cursor: pointer;
+}
+
+.img-card {
+    position: relative;
+    display: inline;
+    width: 360px;
+    height: 300px;
+}
+
+.img-card img {
+    width: 360px;
+    height: 300px;
+    margin: 10px;
+}
+
+.del_photo {
+    position: absolute;
+    right: 17px;
+    padding-top: 17px;
+    font-size: 1.5em;
+    color: #7b0007;
+    cursor: pointer;
+}
